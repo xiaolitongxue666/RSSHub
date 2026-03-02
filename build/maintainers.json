@@ -184,6 +184,9 @@
   "/423down/:category{.+}?": [
     "nczitzk"
   ],
+  "/4chan/:board/catalog/:routeParams?": [
+    "heisenshark"
+  ],
   "/4gamers/": [
     "TonyRL"
   ],
@@ -876,6 +879,9 @@
   ],
   "/bestblogs/feeds/:category?": [
     "zhenlohuang"
+  ],
+  "/bestblogs/newsletter": [
+    "occam-7"
   ],
   "/bestofjs/rankings/monthly": [
     "ztkuaikuai"
@@ -2516,6 +2522,9 @@
   ],
   "/douban/people/:userid/wish/:routeParams?": [
     "exherb"
+  ],
+  "/douban/tv/coming/:sortBy?/:count?": [
+    "honue"
   ],
   "/douyin/hashtag/:cid/:routeParams?": [
     "TonyRL"
@@ -4709,6 +4718,9 @@
   ],
   "/iwara/users/:username/:type?": [
     "Fatpandac"
+  ],
+  "/iwara/ranking/:type?/:sort?/:rating?": [
+    "CaoMeiYouRen233"
   ],
   "/iwara/subscriptions": [
     "FeCCC"
