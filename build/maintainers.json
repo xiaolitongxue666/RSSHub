@@ -277,7 +277,9 @@
   "/7mmtv/:language?/:category?/:type?": [
     "nczitzk"
   ],
-  "/8kcos/cat/:cat{.+}?": [],
+  "/8kcos/cat/:cat?": [
+    "KotoriK"
+  ],
   "/8kcos/": [
     "KotoriK"
   ],
@@ -674,6 +676,9 @@
   ],
   "/artstation/:handle": [
     "TonyRL"
+  ],
+  "/aschmelyun/blog": [
+    "raxod502"
   ],
   "/asiafruitchina/categories/:category?": [
     "nczitzk"
@@ -3286,6 +3291,9 @@
   "/gamersky/review/:type?": [
     "yy4382"
   ],
+  "/gamersky/user/:userId/:detail?": [
+    "hualiong"
+  ],
   "/gamme/:domain/:category?": [],
   "/gamme/:domain/tag/:tag": [],
   "/ganjingworld/channel/articles/:id": [
@@ -3336,6 +3344,12 @@
   ],
   "/gcores/topics/recommend": [
     "nczitzk"
+  ],
+  "/gcores/users/:id/radios": [
+    "DzmingLi"
+  ],
+  "/gcores/users/:id/talks": [
+    "DzmingLi"
   ],
   "/gcores/videos": [
     "nczitzk"
@@ -5582,6 +5596,9 @@
     "yana9i",
     "Tsuyumi25"
   ],
+  "/meritalk/articles": [
+    "superguyDiluc"
+  ],
   "/meta/ai/blog": [
     "TonyRL"
   ],
@@ -5934,7 +5951,8 @@
     "LyleLee"
   ],
   "/ncu/jwc": [
-    "ywh555hhh"
+    "ywh555hhh",
+    "jixiuweilan"
   ],
   "/ncwu/notice": [],
   "/ndss-symposium/ndss": [
@@ -6512,7 +6530,8 @@
     "nczitzk"
   ],
   "/openai/research": [
-    "yuguorui"
+    "yuguorui",
+    "chesha1"
   ],
   "/openalex/:journals/:type?/:ids?": [
     "emdoe"
@@ -7096,6 +7115,9 @@
   ],
   "/qq/lol/news/:category?": [
     "nczitzk"
+  ],
+  "/qq/news/:uid/:detail?": [
+    "hualiong"
   ],
   "/qq/pd/guild/:id/:sub?/:sort?": [
     "mobyw"
