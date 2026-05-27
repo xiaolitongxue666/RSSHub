@@ -88,10 +88,7 @@ export const getDataByChannelId = async ({ channelId, embed, isJsonFeed }: { cha
                         ('thumbnails' in video && Array.isArray(video.thumbnails) ? (video.thumbnails[0] as { url?: string })?.url : undefined) ??
                         (video.video_id ? `https://i.ytimg.com/vi/${video.video_id}/hqdefault.jpg` : undefined);
                     const imgObj = thumbUrl ? { url: thumbUrl } : undefined;
-                    const descHtml =
-                        'description_snippet' in video && video.description_snippet
-                            ? utils.formatDescription(video.description_snippet?.toHTML())
-                            : '';
+                    const descHtml = 'description_snippet' in video && video.description_snippet ? utils.formatDescription(video.description_snippet?.toHTML()) : '';
 
                     return {
                         title: video.title?.text || `YouTube Video ${video.video_id}`,
