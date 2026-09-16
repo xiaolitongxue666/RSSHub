@@ -13,7 +13,6 @@
         "noImplicitAny": false,
         "outDir": "./dist",
         "skipLibCheck": true,
-        "types": ["node"],
         "noEmit": true,
         "incremental": true,
         "resolveJsonModule": true,
